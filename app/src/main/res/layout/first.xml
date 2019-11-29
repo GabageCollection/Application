@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/p1">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/view1"
+        android:src="@mipmap/p2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="用户名登录"
+        android:layout_below="@id/view1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="新浪微博"
+        android:layout_below="@id/button1"
+        android:layout_alignLeft="@id/button1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="腾讯微博"
+        android:layout_below="@id/button2"
+        android:layout_alignLeft="@id/button2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="注册"
+        android:layout_below="@id/button3"
+        android:layout_alignLeft="@id/button3"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>
